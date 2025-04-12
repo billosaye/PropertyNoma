@@ -3,7 +3,7 @@ import { FaSearch } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { HiMenu } from 'react-icons/hi';
 
-// Import fonts (you can add these in your index.html or via a CSS file)
+
 const Header = () => {
   const [isSearchVisible, setIsSearchVisible] = useState(false);
 
@@ -99,3 +99,5 @@ const Header = () => {
 };
 
 export default Header;
+
+
